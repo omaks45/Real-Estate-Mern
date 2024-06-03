@@ -7,9 +7,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sign-in" element={<SignIn />} />
-        <Route path='/sign-out' element={<SignOut />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/profile' element={<Profile />}/>
+        <Route path='/sign-out' element={<SignOut />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
     </BrowserRoute>
   )
