@@ -1,5 +1,10 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import React from 'react'
+import SignIn from './pages/SignIn'
+import SignOut from './pages/SignOut'
+import Home from './pages/Home'
+import About from './pages/About'
+import Profile from './pages/Profile'
 
 export default function App() {
   return (
